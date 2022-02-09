@@ -14,6 +14,7 @@
     "@angular/common": "~13.2.0",
     "@angular/compiler": "~13.2.0",
     "@angular/core": "~13.2.0",
+    "@angular/fire": "^7.2.0",
     "@angular/forms": "~13.2.0",
     "@angular/google-maps": "^13.2.1",
     "@angular/localize": "^13.2.1",
@@ -40,7 +41,8 @@
     "rxjs": "~7.5.0",
     "sass": "^1.49.7",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "rxfire": "^6.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.2.1",

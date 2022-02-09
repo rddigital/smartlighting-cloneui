@@ -17,6 +17,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import { LandingComponent } from './landing/landing.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import {MatButtonModule} from '@angular/material/button';
     HeaderComponent,
     SidenavComponent,
     HomeComponent,
+    LandingComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatInputModule,
     ReactiveFormsModule,
     MatFormFieldModule,
-    MatButtonModule
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
