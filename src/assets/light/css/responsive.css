@@ -1,0 +1,44 @@
+@media (max-width: 1199px) {
+	body{
+	font: 80%/1.4em 'Open Sans', sans-serif;
+	}
+}
+
+@media (max-width: 1024px) {
+	#listDoctor .boxcare .col-md-8{
+		margin-bottom:30px;
+		}
+	#listDoctor .boxcare  .col-sm-12 .form-group, #tabGrid  .boxcare  .col-sm-12 .form-group{
+		float:left;
+		margin-right:10px;
+		}
+	#tabGrid .status{
+		display:block;
+		}
+	
+}
+
+@media (max-width: 800px) {
+	#listDoctor .boxcare  .col-sm-12 .form-group, #tabGrid  .boxcare  .col-sm-12 .form-group{
+		float:none;
+		margin-right:0;
+		}
+	#tabSwitch.nav-tabs > li > a .fas{
+		margin-right:0;
+		}
+	#login{
+		position:static;
+		top:0%;left:0%;
+		transform:translate(-0%,-0%);
+		padding:30px 0;}
+	#login .inner{
+		min-height:380px;
+		}
+		
+	
+}
+@media (max-width: 480px) {
+	
+	
+	
+}
